@@ -11,12 +11,11 @@ public class Course {
     public Course(Long id, String name) {
         this.id = id;
         this.name = name;
-        // this.students = students;
     }
 
     @Override
     public String toString() {
-        return "Course ID: " + this.id + " Name: " + this.name;// + " Students: " + this.students;
+        return "Course ID: " + this.id + " Name: " + this.name;
     }
 
     @Id
